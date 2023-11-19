@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flags-countries-react-routs/static/css/main.cd2e038f.css",
+    "main.js": "/flags-countries-react-routs/static/js/main.54d5ec99.js",
+    "index.html": "/flags-countries-react-routs/index.html",
+    "main.cd2e038f.css.map": "/flags-countries-react-routs/static/css/main.cd2e038f.css.map",
+    "main.54d5ec99.js.map": "/flags-countries-react-routs/static/js/main.54d5ec99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd2e038f.css",
+    "static/js/main.54d5ec99.js"
+  ]
+}
