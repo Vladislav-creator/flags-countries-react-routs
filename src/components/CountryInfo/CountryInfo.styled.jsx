@@ -6,7 +6,7 @@ export const CountryWrapper = styled.div`
   border-radius: 10px;
   box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
   position: relative;
-
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
 `;
