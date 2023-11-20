@@ -26,6 +26,7 @@ export const GlobalStyles = css`
   h6,
   p {
     margin-top: 0;
+   
   }
 
   ul,
@@ -38,8 +39,7 @@ export const GlobalStyles = css`
 
   img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    
   }
 
   button {

@@ -83,11 +83,12 @@ export const Grid = styled.ul`
 
 export const GridItem = styled.li`
    display: flex;
+  gap: 10px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+   align-items: center;
+  // justify-content: center;
   background-color: ${props => props.color};
-  
+  padding: 15px 0;
   border: 4px solid ${({ color }) => color ?? '#fff'};
   border-radius: ${({ theme }) => theme.spacing(4)};
   transition: transform 0.5s ${({ theme }) => theme.animations.cubicBezier};
@@ -131,4 +132,9 @@ export const Backbutton = styled.button`
     display: inline-block;
     padding: 3px;
 }
+  `;
+  export const Subtitle = styled.h2`
+  text-align: center;
+  margin: 0;
+
   `;
