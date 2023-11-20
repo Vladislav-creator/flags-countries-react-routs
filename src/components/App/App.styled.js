@@ -9,8 +9,8 @@ export const Section = styled.section`
     padding-bottom: ${({ theme }) => theme.spacing(10)};
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.l}) {
-    padding-top: ${({ theme }) => theme.spacing(20)};
-    padding-bottom: ${({ theme }) => theme.spacing(20)};
+    padding-top: ${({ theme }) => theme.spacing(10)};
+    padding-bottom: ${({ theme }) => theme.spacing(10)};
   }
 `;
 
@@ -82,12 +82,12 @@ export const Grid = styled.ul`
 `;
 
 export const GridItem = styled.li`
-  display: flex;
+   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: ${props => props.color};
-
+  
   border: 4px solid ${({ color }) => color ?? '#fff'};
   border-radius: ${({ theme }) => theme.spacing(4)};
   transition: transform 0.5s ${({ theme }) => theme.animations.cubicBezier};
@@ -101,3 +101,34 @@ export const GridItem = styled.li`
     box-shadow: 0px 2px 10px 2px ${({ theme }) => theme.colors.primary};
   }
 `;
+export const Backbutton = styled.button`
+    cursor: pointer;
+    text-align: center;
+   
+    font-weight: bold;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    // margin-top: 25px;
+    box-shadow: 1px 2px 2px 0 rgb(0, 0, 0/0.5);
+    transition: box-shadow 250ms linear;
+    border-radius: 10px;
+    border: 3px solid #b38bff;
+    background-color: white;
+   display: inline-block;
+   margin-right: 20px;
+   &:hover,
+   &:focus {
+     text-shadow: 3px 3px 20px #ff3cac, -2px 1px 30px #ff3cac;
+     border: 3px solid #ff3cac; 
+   }
+  
+  `;
+  export const Left = styled.i`
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  border: solid #000;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  `;
